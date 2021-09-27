@@ -1,0 +1,27 @@
+*{
+  font-family: Questrial !important;
+
+}
+
+/* nav hover */
+
+nav ul li a:hover{
+color: #00ff00 !important;
+  }
+  
+
+/* sign in page */
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}

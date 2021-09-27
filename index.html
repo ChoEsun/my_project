@@ -1,0 +1,484 @@
+<! -- Docment type declaration -->
+  <!DOCTYPE html>
+  <! -- Language type -->
+    <html lang="en">
+    <! -- Begin head -->
+
+      <head>
+        <! -- Character encoding for the html document -->
+          <meta charset="UTF-8" />
+          <! -- X-UA-Compatibility for Micrsoft Edge -->
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <! -- Viewport Setting - sets initial width of any device to the screen width and sets the initial zoom
+              level -->
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <! -- Link to Google Urbanist Font CHANGE TO QUESTRIAL-->
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet" />
+                <! -- Link to Bootstap css -->
+                  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+                    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+                    crossorigin="anonymous" />
+                  <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
+                    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+                    crossorigin="anonymous" />
+                  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/features/" />
+                  <! -- Link to main css -->
+                    <link rel="stylesheet" href="styles.css" />
+                    <! -- Page Title -->
+                      <title>jac'kd web dev</title>
+      </head>
+      <! -- End of head -->
+        <! -- Start of body - Houses all tags-->
+
+          <body>
+            <! -- Start of header -->
+              <header>
+                <! -- Start of navigation -->
+                  <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+                    <! -- Logo container -->
+                      <div class="container">
+                        <a href="#" class="navbar-brand">
+                          <img src="/images/logo.png" alt="" /></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                          aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                          <! -- Toggler icon -->
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <! -- Navbar Menu -->
+                          <div class="collapse navbar-collapse" id="menu">
+                            <! -- Unorder list -->
+                              <ul class="navbar-nav ms-auto">
+                                <! -- Home Link -->
+                                  <li class="nav-item">
+                                    <a href="#Home" class="nav-link active">Home</a>
+                                  </li>
+                                  <! -- About Us Link -->
+                                    <li class="nav-item">
+                                      <a href="#About" class="nav-link">About Us</a>
+                                    </li>
+                                    <! -- Quiz Link -->
+                                      <li class="nav-item">
+                                        <a href="#Quiz" class="nav-link">Learn Now! App
+                                          </a>
+                                      </li>
+                                      <! -- Contact Link -->
+                                        <li class="nav-item">
+                                          <a href="#Contact" class="nav-link">Sign
+                                              Up</a>
+                                        </li>
+                                        <! -- Resources Link -->
+                                          <li class="nav-item">
+                                            <a href="resources.html" class="nav-link">Resource
+                                                List</a>
+                                          </li>
+                                          <! -- Login Link -->
+                                            <li class="nav-item">
+                                              <a href="signin.html" class="nav-link"><span
+                                                  style="color: #00ffff">Login</span></a>
+                                            </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </nav>
+                  <! -- End of navigation -->
+              </header>
+              <! -- End of header -->
+                <! -- Start of carousel -->
+                  <section id="myCarousel" class="carousel carousel-light slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    </div>
+                    <! -- Carousel Slide 1-->
+                      <div id="Home" class="carousel-inner">
+                        <div class="carousel-item active data-bs-interval=" 10000">
+                          <! -- Group Image-->
+                            <img class="mx-auto" style="width: auto" src="images/carousel_1.png" " alt="" />
+                          <div class=" container">
+                            <div class="carousel-caption text-end">
+                              <h1>Worried What's Next?</h1>
+                              <p class="fs-5">
+                                We are designing a JWD incubator course and we'd love your
+                                help!
+                              </p>
+                              <p>
+                                <a class="btn btn-lg btn-primary" href="#Contact">Sign up today</a>
+                              </p>
+                            </div>
+                        </div>
+                      </div>
+                      <! -- Carousel Slide 2-->
+                        <div class="carousel-item">
+                          <! -- Musa Image-->
+                            <img class="mx-auto" style="width: auto" src="images/carousel_2.png" alt="" />
+                            <div class="container">
+                              <div class="carousel-caption text-start">
+                                <h1>You are Generation Trained and Musa Certified.</h1>
+                                <p class="fs-5">
+                                  Don't quit now. Let's continue to learn together!
+                                </p>
+                                <figure>
+                                  <blockquote class="blockquote">
+                                    <p>
+                                      You think you've been in the bush? You've never SEEN the bush!
+                                    </p>
+                                  </blockquote>
+                                  <figcaption class="blockquote-footer">
+                                    Mohamed K. Musa
+                                    <cite title="Source Title">Generation USA Instructor</cite>
+                                  </figcaption>
+                                </figure>
+                                <p><a class="btn btn-lg btn-primary" href="#Contact">Join Us!</a></p>
+                              </div>
+                            </div>
+                        </div>
+                        <! -- Carousel Slide 3-->
+                          <div class="carousel-item">
+                            <! -- Jorge Image-->
+                              <img class="mx-auto" style="width: auto" src="images/carousel_3.png" alt="" />
+                              <div class="container">
+                                <div class="carousel-caption text-end">
+                                  <h1>What would Jorge do?</h1>
+                                  <pclass="fs-5">
+                                    You have to committ yourself to practice in order to become a great coder. Got two
+                                    hours a week?
+                                    </p>
+                                    <figure>
+                                      <blockquote class="blockquote">
+                                        <p>
+                                          The ONLY code is that the code doesn't break!
+                                        </p>
+                                      </blockquote>
+                                      <figcaption class="blockquote-footer">
+                                        Jorge Vasquez
+                                        <cite title="Source Title">Generation USA TA</cite>
+                                      </figcaption>
+                                    </figure>
+                                    <p>
+                                      <a class="btn btn-lg btn-primary" href="#Contact">Sign Up Now!</a>
+                                    </p>
+                                </div>
+                              </div>
+                          </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                  </section>
+                  <! -- Start About Us section -->
+                    <section id="About" class="py-5 text-start container">
+                      <div class="row">
+                        <div class="col-lg-12 col-md-12 mx-start">
+                          <h1 class="fw-light text-decoration-underline">About Us</h1>
+                          
+                            <img src="images/about_us.png" alt="Group-Photo" style="width:50%">
+                            <p> Our Team (listed left to right): - Juan Batista, Abdul Musa, Cleon Franklin,
+                              Kidist Gabeyehu, and David Cho.</p>
+                           
+                        
+                                                     <p class="fs-4 lead text-muted">
+                              <h4>Our Product Goal and Team Mission:</h4>
+                              <p> To utilize our collective knowledge of html, css, and javascript to create a student-friendly, online learning environment that allows members of our cohort to continue to sharpen their individual web dev skills.  
+                                  </p>
+                              <div>
+                                <h5>A message from our Scrum Master, Juan Batista</h5><i class="fa fa-html5" aria-hidden="true"></i>
+                                <p>While at Generation, I learned to move forward - only forward. I began my day by greeting my
+                                  colleagues and eagerly listening to Mr. Musa's or Mr. Vasquez's brief recap of what we learned the past day. We then
+                                  moved on to review  the calendar day and review our goals for the
+                                  day.
+                                  After our instructor lead lessons, we moved into our
+                                  asyncronistic assignments. As students, we were fortunate to have two of the finest
+                                  instructors and staff that helped us meet our goals to find careers and
+                                  ultimately change our lives and our futures. We worked hard and understand the
+                                  importance
+                                  of teamwork and that we are not alone with the help of such effective and dedicated
+                                  staff. They laid a clear vision for reaching our goals and we are capable of accomplishing anything. At
+                                  Generation's D.C. cohort we have learned to put our egos behind, discard limiting
+                                  beliefs and adopt a Growth Mindset. We grow everyday and know that
+                                  behind
+                                  every mistake, there is an opportunity to learn something valuable. We can 
+                                  take control of our outcomes because we now have the ability
+                                  to
+                                  grow and rather than dwelling on our past failures - we focus on our futures and move
+                                  towards our success. 
+
+                                </p>
+                              </div>
+
+
+
+                    </section>
+                    <! -- Portfolio Gallery -->
+                      <div class="album py-5 bg-light">
+                        <div class="container">
+                          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            <div class="col">
+                              <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                                  <title>Instructional Design</title>
+                                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                    dy=".3em">Instructional Design</text>
+                                </svg>
+
+                                <div class="card-body">
+                                  <p class="card-text">I use Inkscape and GIMP to create wireframes and basic logos. I
+                                    am proficient with both tools, but I am currently seeking zero cost opportunities to
+                                    further my graphic design skills, using Inkscape, GIMP, or similiar open source
+                                    tools.</p>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                                  <title>Web Design</title>
+                                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                    dy=".3em">Web Design</text>
+                                </svg>
+
+                                <div class="card-body">
+                                  <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                                  <title>Wireframing</title>
+                                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                    dy=".3em">Wireframing</text>
+                                </svg>
+
+                                <div class="card-body">
+                                  <p class="card-text">I use Inkscape and GIMP to create wireframes and basic logos. I
+                                    am proficient with both tools, but I am currently seeking zero cost opportunities to
+                                    further my graphic design skills, using Inkscape, GIMP, or similiar open source
+                                    tools</p>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <! -- Professional Profiles -->
+                      <div class="container">
+                        <div class="card-group" style="width: auto;">
+                          <div class="card">
+                            <img src="images/juan_profile.png" class="img-fluid w-10" alt="..." />
+                            <div class="card-body">
+                              <h5 class="card-title">Juan Batista</h5>
+                              <p class="card-text">
+                                Juan serves as our official Scrum Master. He wrote code for the
+                                About Us paragraph and his professional profile page. Juan also sourced the initial code
+                                for the Learn Now! quiz app.Click the
+                                link below to learn more about Juan.
+                              </p>
+                            </div>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Meet Juan</a>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 20rem">
+                            <img src="images/abdul_profile.png" class="img-fluid w-10" alt="..." />
+                            <div class="card-body">
+                              <h5 class="card-title">Abdul Musa</h5>
+                              <p class="card-text">
+                                Abdul is a member of our coding team. He wrote code for the our
+                                initial contact form and his professional profile page. Click the
+                                link below to learn more about Abdul.
+                              </p>
+                            </div>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Meet Abdul</a>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 20rem">
+                            <img src="images/cleon_profile.png" class="img-fluid w-10" alt="..." />
+                            <div class="card-body">
+                              <h5 class="card-title">Cleon Franklin</h5>
+                              <p class="card-text">
+                                Cleon serves as Product Owner. He wrote code for all sections of
+                                the website and his professional profile page. Cleon also wrote the final code for the
+                                Learn Now! quiz app.Click the link
+                                below to learn more about Cleon.
+                              </p>
+                            </div>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Meet Cleon</a>
+                            </div>
+                            <div class="card-body"></div>
+                          </div>
+                          <div class="card" style="width: 20rem">
+                            <img src="images/kidist_profile.png" class="img-fluid w-10" alt="..." />
+                            <div class="card-body">
+                              <h5 class="card-title">Kidist Gabeyehu</h5>
+                              <p class="card-text">
+                                Kidist is a member of our coding team. She wrote code for the our
+                                initial landing page and the original professional profile pages.
+                                Click the link below to learn more about Kidist.
+                              </p>
+                            </div>
+                            <div class="card-body">
+                              <a href="#" class="card-link"></a>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 20rem">
+                            <img src="images/dave_profile.png" class="img-fluid w-10" alt="..." />
+                            <div class="card-body">
+                              <h5 class="card-title">David Cho</h5>
+                              <p class="card-text">
+                                David <q>Dave</q> is a member of our coding team. He wrote code
+                                for the our initial login page and his professional profile page. Dave also sourced the
+                                initial code for the Learn Now! quiz app.
+                                Click the link below to learn more about Dave.
+                              </p>
+                            </div>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Meet Dave</a>
+                            </div>
+                          </div>
+                        </div>
+                        </section>
+                        <! -- End of About Us section -->
+                          <hr />
+                          <br />
+                          <! -- Start Quiz Feature section -->
+                            <section id="Quiz">
+                              <div class="container col-xxl-8 px-5 py-5">
+                                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                                  <div class="col-10 col-sm-8 col-lg-6">
+                                    <img src="images/learn_now.png" alt="Bootstrap Themes" width="700" height="500"
+                                      loading="lazy" />
+                                  </div>
+                                  <div class="col-lg-6">
+                                                                  <h1 class="display-5 fw-normal mb-3">Try our new quiz app.</h1>
+                                    <p class="lead">
+                                      The learn now! quiz app was designed with the next Generation USA
+                                      student in mind. Practice html, css, Javascipt, command line,
+                                      github, bootstrap, and scrum in a fun environment!
+                                    </p>
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                      <a href="#Contact" type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                                        Request Demo
+                                      </a>
+                                      <a href="signin.html" type="button" class="btn btn-outline-secondary btn-lg px-4">
+                                        Login
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            </section>
+                            <! -- End Quiz Feature section -->
+                              <hr />
+                              <! -- Start Contact section -->
+                                <section id="Contact" class="container col-xxl-8 px-5 py-5">
+                                  <h1>Sign Up</h1>
+                                  <p class="fs-4">
+                                    A Generations Account is a user account that is required for access, authentication
+                                    and authorization to certain online Learning Architects services. It is also often
+                                    used as single sign on for Generations third party services
+                                  </p>
+                                  <p class="fs-4">
+                                    A single username and password gets you into everything
+                                    Generations Learning Architects (Learning Architects Training, Learning Architects
+                                    videos on demand, Learning Architects Mind maps). Set up your profile and
+                                    preferences
+                                    and start learning today.
+                                  </p>
+                                  <! -- Sign Up Form -->
+                                  <div class="container">
+                                  <form id ="form" class="form">
+                                    <div class="col-sm-8">
+                                      <label for="first-name" class="form-label">First Name:</label>
+                                      <input placeholder =  "Enter your first name " type="text" class="form-control" id="first-name" />
+                                    </div>
+                                    <div class="col-sm-8">
+                                      <label for="last-name" class="form-label">Last Name:</label>
+                                      <input placeholder =  "Enter your last name "type="text" class="form-control" id="last-name" />
+                                    </div>
+                                    <div class="col-sm-8">
+                                      <label for="email" class="form-label">eMail Address:</label>
+                                      <input placeholder =  "Enter your email adress "type="email" class="form-control" id="email" required />
+                                    </div>
+                                    <div class="col-sm-8">
+                                      <label for="phone" class="form-label">Telephone Number:</label>
+                                      <input placeholder =  "Enter your mobile number "type="tel" class="form-control" id="phone" />
+                                    </div>
+                                    <div class="col-sm-8">
+                                      <label for="password" class="form-label">Enter Password:</label>
+                                      <input placeholder =  "Enter your password " type="password" class="form-control" id="password" required />
+                                    </div>
+                                    <div class="col-sm-8">
+                                      <label for="password" class="form-label">Confirm Password:</label>
+                                      <input placeholder =  "Confirm your password "type="password" class="form-control" id="confirm-password" />
+                                    </div>
+                                    <div class="col-auto">
+                                      
+                                      <br>
+                                      <br />
+                                      <button id = "sign_up_btn" type="submit" class="btn btn-primary btn-lg px-4 me-md-2">
+                                        Submit
+                                      </button>
+                                  </form>
+                                </div>
+                                </section>
+
+                                <! -- Link to Bootstap JavaScript -->
+<<<<<<< HEAD
+                                <script src="signup.js" defer></script> 
+=======
+                                <script src="./signin.js" defer></script> 
+>>>>>>> d18ae5f34a639db802af8c45ece214f913ffdbf8
+                                <script
+                                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+                                    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+                                    crossorigin="anonymous"></script>
+                                  <! -- End of JavaScript -->
+          </body>
+          <! -- End of body -->
+
+    </html>
+    <! -- End of html -->
